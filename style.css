@@ -1,0 +1,131 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+
+    display: flex;
+
+    border-bottom: solid black;
+    border-color: rgba(0, 0, 0, 0.05);
+    padding: 20px;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.right-nav {
+    margin-left: 600px;
+}
+
+#uni {
+    margin-left: 480px;
+    margin-right: 88px;
+    font-size: 24px;
+}
+
+ul {
+    list-style: none;
+}
+
+.header-a {
+    font-size: 16px;
+    color: #050038;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    display: inline;
+}
+
+.header-li {
+    margin-right: 34px;
+}
+
+
+
+.registration {
+    background-color: #4262FF;
+    width: 157px;
+    height: 50px;
+    border: none;
+    border-radius: 24px;
+
+
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.text {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+#logo {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.block-1 {
+    margin: 40px;
+}
+
+h1 {
+    font-size: xxx-large;
+    font-weight: 400;
+}
+
+p {
+    font-size: large;
+}
+
+.submit {
+    background-color: #4262FF;
+    width: 440px;
+    height: 50px;
+    border: none;
+    border-radius: 32px;
+
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.text {
+    width: 440px;
+    height: 50px;
+    border-radius: 32px;
+
+    text-align: center;
+    font-size: large;
+}
+
+small {
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+#an {
+    margin-top: 52px;
+    font-weight: 500;
+    font-size: large;
+}
+
+.block-1-li {
+
+    line-height: 20px;
+}
+
+#uli {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+}
