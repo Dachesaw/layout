@@ -1,0 +1,27 @@
+#index1 {
+    background-color: black;
+    color: yellow;
+    display: flexbox;
+}
+
+#index2 {
+    color: green;
+    max-width: 600px;
+    display: flexbox;
+}
+
+.block-2 {
+    width: 70em;
+}
+
+.block-2 figure {
+    width: 27%;
+    margin: 0 0 0 3.5%;
+    float: left;
+    border-radius: 5%;
+    padding: 2%;
+}
+
+figure:first-child {
+    margin-left: 0;
+}
