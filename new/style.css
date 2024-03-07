@@ -1,0 +1,133 @@
+.index {
+    background-color: black;
+    color: aliceblue;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#index2 {
+    display: flexbox;
+}
+
+.block-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.block-2 figure {
+    margin: 10px;
+    text-align: center;
+}
+
+.block-2 img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 400;
+}
+
+#h1-1 {
+    color: rgb(255, 255, 255);
+}
+
+#h2-1 {
+    color: rgb(251, 165, 162);
+}
+
+#h3-1 {
+    color: rgb(249, 129, 125);
+}
+
+#h4-1 {
+    color: gold;
+}
+
+#h5-1 {
+    color: rgba(178, 107, 248, 0.2);
+}
+
+#h6-1 {
+    color: #64fd6e;
+
+}
+
+p {
+    font-weight: 600;
+}
+
+
+
+header {
+    border-color: rgba(0, 0, 0, 0.05);
+    margin: 0;
+}
+
+.header-li {
+    margin-left: 1%;
+}
+
+figure a {
+    cursor: grab;
+}
+
+a {
+    color: rgb(155, 155, 155);
+    text-decoration: none;
+}
+
+.header-a {
+    border: 1px solid white;
+    border-radius: 25%;
+    padding: 2px;
+    cursor: help;
+    font-size: large;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.header-a:active {
+    border: 3px solid;
+    border-color: rgb(25, 255, 25);
+    color: rgb(25, 255, 25);
+    cursor: wait;
+}
+
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline;
+}
+
+.block-3 {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.block-3 button {
+    background-color: rgb(19, 23, 26);
+    border: 2px solid #840a0a;
+    border-radius: 17%;
+    margin: 10px;
+    text-align: center;
+    width: 15vh;
+    height: 10ch;
+}
+
+.block-3 a {
+    font-size: x-large;
+    max-width: 100%;
+    height: auto;
+}
