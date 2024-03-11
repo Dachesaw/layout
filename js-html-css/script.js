@@ -38,18 +38,19 @@ console.log(arithmetic(25, 2, "-"));
 console.log(arithmetic(25, 2, "*"));
 console.log(arithmetic(25, 2, "/"));
 console.log(arithmetic(25, 0, "/"));
+console.log(arithmetic(25, 0, "#"));
 
 console.log("-----------")
 
 
 function filterEvenNumbers(arr) {
     let result = [];
-    for (let i = 0; i < arr.lenght; i++) {
+    for (let i = 0; i < arr.lenght; ++i) {
         if (arr[i] % 2 == 0) {
             result.push(arr[i]);
         }
     }
-    for (let j = 0; j < result.length; j++) {
+    for (let j = 0; j < result.length; ++j) {
         result[j] *= 2;
     }
     return result;
